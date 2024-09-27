@@ -1,0 +1,136 @@
+body{
+ background-image: url(../imagens/imagemdefundo.jpg);
+ background-repeat: repeat;
+ background-size: 100%;
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ line-height: 1.5;
+}
+
+main{
+    background-color: rgba(255, 255, 255, 0.473);
+    padding: 5px 40px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.manchete, .logo, .pontos{
+    text-align: center;
+    margin: 0;
+    color: rgb(3, 0, 31);
+    text-decoration: underline;
+}
+
+article{
+    text-align: center;
+    font-style: normal;
+    font-size: 25px;
+    color: rgb(5, 0, 36);
+    font-weight: bold;
+}
+
+h1{
+    text-align: center;
+    font-size: 40px;
+    text-decoration: underline;
+    font-style: normal;
+    color: rgb(0, 0, 29);
+}
+
+h2{
+    text-align: center;
+    font-style: normal;
+    font-size: 18px;
+    color: rgb(5, 0, 36);
+    font-weight: bold;
+}
+
+h3{
+    text-align: center;
+    font-style: normal;
+    font-size: 25px;
+    color: rgb(1, 1, 43)
+}
+
+footer{
+    text-align: center;
+    font-style: italic;
+    color: white;
+}
+
+.formulario {
+    width: 960px;
+    margin: 80px auto;
+    text-align: center;
+}
+
+
+#menu {
+    width: 960px;
+    margin: 60px auto;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgb(7, 1, 44);
+    background-image: linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0));
+    border-radius: 6px;
+    box-shadow: 0 1px 1px rgb(0, 3, 29);
+    zoom: 1;
+}
+
+#menu:before,
+#menu:after {
+    content: "";
+    display: table;
+}
+
+#menu:after {
+    clear: both;
+}
+
+#menu li {
+    float: left;
+    border-right: 1px solid rgb(255, 255, 255);
+    box-shadow: 1px 0 0 rgb(255, 255, 255);
+    position: relative;
+}
+
+#menu a {
+    float:left;
+    padding: 12px 30px;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font: bold 12px Arial, Helvetica;
+    text-decoration: none;
+    text-shadow: 0 1px 0 rgb(255, 255, 255);
+}
+
+#menu li:hover > a{
+    color: #fafafa;
+}
+
+#menu ul {
+    margin: 20px 0 0 0;
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    top: 38px;
+    left: 0;
+    z-index: 1;
+    background: rgb(2, 0, 26);
+    background: linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255));
+    box-shadow: 0 -1px 0 rgba(255, 255, 255, 0.459);
+    border-radius: 3px;
+    transition: all .2s ease-in-out;
+}
+
+#menu li:hover > ul {
+    opacity: 1;
+    visibility: visible;
+    margin: 0;
+}
+
+#menu ul ul {
+    top: 0;
+    left: 150px;
+    margin: 0 0 0 20px;
+    box-shadow: -1px 0 0 rgba(255, 255, 255, 0.3);
+}
+

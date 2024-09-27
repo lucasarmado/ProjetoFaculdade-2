@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/estilos.css">
+        <script type="text/JavaScript" src="javascript/jscript.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery-3.5.1.js"></script>
+        <script src="js/bootstrap.js"></script>  
+        <link href="css/bootstrap.css" rel="stylesheet">
+        <title>Meu Site Pessoal</title>
+    </head>
+    
+     <body> 
+         <main>
+                <h1 class="manchete">Página Pessoal</h1>
+                <h2 class="manchete">Lucas Amado</h2>
+                <ul id="menu">
+                    <li><a href="paginapessoal.html">Home</a></li>
+                    <li><a href="paginas/sobre.html">Currículo</a></li>    
+                </ul>
+            <section>   
+             <article>
+                <p class="textos">Bem-Vindo a Minha Página Pessoal, Aqui irei contar sobre alguns fatos sobre mim,
+                    gostos e costumes, Mais informações pessoais cliquem na Aba "Currículo".
+                </p>
+             </article>
+            </section>
+             <section>
+                 <h1>Alguns Fatos Sobre Mim</h1>
+                 <p>Nasci no interior de São Paulo, mais especificamente em Monte Alto, meus antepassados vieram da Alemanha. Meu estilo musical foi influenciado pelo oque meus pais ouviam,
+                     rock nacional como Engenheiros do Hawaii e Ira, e varias outras bandas de rock como U2, Metallica, Iron Maiden, Linkin Park, entre outras. Tenho um irmão mais velho,
+                     e o amor por futebol que tenho veio dele, quando me apresentou um jogo do São Paulo, e desde então acompanho todos os jogos que posso. Conheci o computador e esse amor
+                     por tecnologia bem cedo, meus pais tinham um computador em 2007, e desde lá vim gostando cada vez mais da tecnologia, oque me levou enfim a escolher o Curso de Ciências da Computação. 
+                 </p>
+             </section>
+                <h1>Hobby</h1>
+            <h3>Um de meus hobbys preferidos é o de jogar games, vou citar alguns dos meus preferidos.</h3>
+          <section>
+            <div class="logo">
+                <h2>Counter-Strike : Global Offensive</h2>
+                <img src="imagens/counterstrike.jpg" alt="CSGO" width="20%" height="20%"> <img src="imagens/counterstrike2.jpg" alt="CSGO" width="22%" height="22%">
+                <p>O Counter-Strike, popularmente chamado de "CS:GO", é um jogo de Tiro em Primeira Pessoa(FPS),
+                    e é um dos meus preferidos, o qual eu passei mais horas jogando, ao total foram mais de 3000 horas em 5 anos jogando.
+                    é um dos meus favoritos também porque foi nele em que conheci varios de meus amigos, com os quais eu passei muitas horas se divertindo.
+                </p>
+            </div>
+          </section>
+         <section>
+            <div class="logo">
+                <h2>League of Legends</h2>
+                <img src="imagens/leagueoflegends.jpg" alt="LOL" width="20%" height="20%">
+                <p>O League of Legends, mais conhecido como "LOL", é um jogo estilo Moba, no qual o jogador enfrente pessoas de todos os mundos em uma arena 5x5, um dos jogos que quando conheci,
+                    me apaixonei na hora, pois além de se divertir com o jogo, você aprende muito de estratégias e pensamentos rapidos, porque para se ganhar um jogo no "LOL" é preciso usar
+                    de todas as habilidades que seu time dispôe e de maneira correta.
+                </p>
+            </div>
+         </section>
+         <section>
+             <div class="formulario">
+                  <h1>Formulário de Contato</h1>
+                    <form name="formulario" id="formulario_cadastro" action="salvar.jsp" method="POST">
+                        <label>Nome</label> <input type="text" name="nome" placeholder="Digite seu Nome" size="40" maxlength="150">
+                        <br>
+                        <label>E-mail</label> <input type="text" name="E-mail" placeholder="Digite seu e-mail" size="40" maxlength="150">
+                        <br>
+                        <label>Telefone</label> <input type="text" name="Telefone" placeholder="Digite seu telefone" size="40" maxlength="150">
+                        <br>
+                        <label>Data de Nascimento</label> <input type="date" name="data_nascimento">
+                        <br>
+                        <label>Data/Hora de Entrada</label> <input type="datetime-local" name="datahora_entrada">
+                        <br>
+                        <label>Mensagem</label> <textarea name="" id="" rows="" cols=""></textarea>
+                        <br>
+                        <br>
+                        <input type="submit" name="enviar" value="Enviar">
+                    </form>
+             </div>
+        </section>
+         </main>
+         <section>
+         <footer>
+            <p><q>Que a força esteja com você</q> <cite>Darth Vader</cite></p>
+            Lucas Dal Colletto Amado - Ultima alteração em <time datetime="2020-05-10">10/05/2020</time>
+        </footer>
+        </section>
+     </body>
+    </html>
